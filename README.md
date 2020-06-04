@@ -1,5 +1,7 @@
 # README #
 
+**The repository is being updated.**
+
 This is official Pytorch implementation of 
 "[Uncertainty quantification in medical
 image segmentation with Normalizing Flows](https://arxiv.org/abs/2005.10052)", Raghavendra Selvan et al. 2020
@@ -33,5 +35,5 @@ image segmentation with Normalizing Flows](https://arxiv.org/abs/2005.10052)", R
 * raghav@di.ku.dk
 
 ### Thanks 
-* [Prob.U-Net](https://github.com/stefanknegt/Probabilistic-Unet-Pytorch) for preprocessing LIDC data
+* [Prob.U-Net](https://github.com/stefanknegt/Probabilistic-Unet-Pytorch) for preprocessing LIDC data and Prob. U-net baseline model.
 
