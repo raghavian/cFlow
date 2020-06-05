@@ -26,8 +26,8 @@ image segmentation with Normalizing Flows](https://arxiv.org/abs/2006.02683)", R
 @article{raghav2020cFlowNet,
  	title={Uncertainty quantification in medical image segmentation with Normalizing Flows},
 	author={Raghavendra Selvan, Frederik Faye, Jon Middleton, Akshay Pai},
- 	journal={arXiv preprint arXiv:2006.02683,
-	year={2020}}}
+ 	journal={arXiv preprint arXiv:2006.02683},
+	year={2020}}
 ```
 
 ### Who do I talk to? ###
@@ -35,5 +35,7 @@ image segmentation with Normalizing Flows](https://arxiv.org/abs/2006.02683)", R
 * raghav@di.ku.dk
 
 ### Thanks 
-* [Prob.U-Net](https://github.com/stefanknegt/Probabilistic-Unet-Pytorch) for preprocessing LIDC data and Prob. U-net baseline model.
-
+Parts of our implementation is based on:
+* [Prob.U-Net and LIDC data](https://github.com/stefanknegt/Probabilistic-Unet-Pytorch)
+* [Planar flows] (https://github.com/riannevdberg/sylvester-flows)
+* [Glow model] (https://github.com/karpathy/pytorch-normalizing-flows)
