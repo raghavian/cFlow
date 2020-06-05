@@ -37,5 +37,5 @@ image segmentation with Normalizing Flows](https://arxiv.org/abs/2006.02683)", R
 ### Thanks 
 Parts of our implementation is based on:
 * [Prob.U-Net and LIDC data](https://github.com/stefanknegt/Probabilistic-Unet-Pytorch)
-* [Planar flows] (https://github.com/riannevdberg/sylvester-flows)
-* [Glow model] (https://github.com/karpathy/pytorch-normalizing-flows)
+* [Planar flows](https://github.com/riannevdberg/sylvester-flows)
+* [Glow model](https://github.com/karpathy/pytorch-normalizing-flows)
