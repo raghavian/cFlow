@@ -4,7 +4,7 @@
 
 This is official Pytorch implementation of 
 "[Uncertainty quantification in medical
-image segmentation with Normalizing Flows](https://arxiv.org/abs/2005.10052)", Raghavendra Selvan et al. 2020
+image segmentation with Normalizing Flows](https://arxiv.org/abs/2006.02683)", Raghavendra Selvan et al. 2020
 
 ![lotenet](models/cflow.png)
 ### What is this repository for? ###
@@ -26,7 +26,7 @@ image segmentation with Normalizing Flows](https://arxiv.org/abs/2005.10052)", R
 @article{raghav2020cFlowNet,
  	title={Uncertainty quantification in medical image segmentation with Normalizing Flows},
 	author={Raghavendra Selvan, Frederik Faye, Jon Middleton, Akshay Pai},
- 	journal={arXiv preprint arXiv:2020.2005.10052,
+ 	journal={arXiv preprint arXiv:2006.02683,
 	year={2020}}}
 ```
 
