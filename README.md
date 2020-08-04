@@ -23,11 +23,14 @@ image segmentation with Normalizing Flows](https://arxiv.org/abs/2006.02683)", R
 
 * Kindly cite our publication if you use any part of the code
 ```
-@article{raghav2020cFlowNet,
+@inproceedings{raghav2020cFlowNet,
  	title={Uncertainty quantification in medical image segmentation with Normalizing Flows},
 	author={Raghavendra Selvan, Frederik Faye, Jon Middleton, Akshay Pai},
- 	journal={arXiv preprint arXiv:2006.02683},
-	year={2020}}
+ 	booktitle={11th International Workshop on Machine Learning in Medical Imaging},
+	month={October},
+	year={2020}
+	url={https://arxiv.org/abs/2006.02683}}
+
 ```
 
 ### Who do I talk to? ###
