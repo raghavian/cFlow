@@ -1,6 +1,6 @@
 # README #
 
-**The repository is being updated.**
+**Note:** Models will be updated after the [Qubiq Challenge](https://qubiq.grand-challenge.org/).
 
 This is official Pytorch implementation of 
 "[Uncertainty quantification in medical
