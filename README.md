@@ -1,7 +1,5 @@
 # README #
 
-**Note:** Models will be updated after the [Qubiq Challenge](https://qubiq.grand-challenge.org/).
-
 This is official Pytorch implementation of 
 "[Uncertainty quantification in medical
 image segmentation with Normalizing Flows](https://arxiv.org/abs/2006.02683)", Raghavendra Selvan et al. 2020
