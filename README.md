@@ -15,7 +15,7 @@ image segmentation with Normalizing Flows](https://arxiv.org/abs/2006.02683)", R
 
 * Basic Pytorch dependency
 * Tested on Pytorch 1.3, Python 3.6 
-* Download preprocessed datasets [from here]()
+* Download preprocessed LIDC dataset [from here](https://sid.erda.dk/share_redirect/BgFgw4NMf4). **Change the file name with .zip after downloading. **
 
 ### Usage guidelines ###
 
