@@ -11,6 +11,9 @@ import time
 from utils.tools import makeLogFile, writeLog, dice_loss
 import pdb
 import argparse
+import sys
+import os
+
 torch.manual_seed(42)
 np.random.seed(42)
 
@@ -18,6 +21,7 @@ np.random.seed(42)
 parser = argparse.ArgumentParser()
 parser.add_argument('--flow', action='store_true', default=False, help=' Train with Flow model')
 parser.add_argument('--glow', action='store_true', default=False, help=' Train with Glow model')
+parser.add_argument('--data', type=str, default='data/lidc/',help='Path to data.')
 parser.add_argument('--probUnet', action='store_true', default=False, help='Train with Prob. Unet')
 parser.add_argument('--unet', action='store_true', default=False, help='Train with Det. Unet')
 parser.add_argument('--singleRater', action='store_true', default=False, help='Train with single rater')
@@ -29,7 +33,7 @@ parser.add_argument('--lr', type=float, default=1e-4, help='Learning rate')
 args = parser.parse_args()
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-dataset = LIDC()
+dataset = LIDC(data_dir=args.data)
 dataset_size = len(dataset)
 indices = list(range(dataset_size))
 split = int(np.floor(0.2 * dataset_size))
@@ -86,7 +90,10 @@ else:
     print("Choose a model.\nAborting....")
     sys.exit()
 
-logFile = '../logs/'+fName+'.txt'
+if not os.path.exists('logs'):
+    os.mkdir('logs')
+
+logFile = 'logs/'+fName+'.txt'
 makeLogFile(logFile)
 
 net.to(device)
